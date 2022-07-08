@@ -26,7 +26,7 @@ public class T007 {
 		//driver1.findElement(By.partialLinkText("Sign")).click();
 		int count = driver1.findElements(By.tagName("a")).size();
 		System.out.println("total number of count is : " + count);
-		
+		//creating an array to save list of values.
 	      ArrayList total_links = new ArrayList();
 
 		//List<WebElement> total_links = new ArrayList();
